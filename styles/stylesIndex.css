@@ -143,6 +143,10 @@ header nav ul li a:hover{
         visibility: hidden;
     }
 
+    .subtitle{
+        font-size: 24px;
+    }
+
     .typewriter_effect p{
         display: inline-flex;
         text-align: center;
