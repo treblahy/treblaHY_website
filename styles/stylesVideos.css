@@ -81,6 +81,7 @@ header nav ul li a:hover{
     text-align: center;
     width: max-content;
     margin-top: 50px;
+    margin-bottom: 20px;
     font-family: "Source Code Pro", monospace;
 }
 
@@ -120,7 +121,7 @@ header nav ul li a:hover{
 .videos_float{
     font-size: 30px;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -70px;
     opacity: 0;
     transform: translateY(3rem);
     animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 1s) forwards;
@@ -164,4 +165,29 @@ footer p.copyright{
     bottom: -10px;
     margin-left: 5px;
     padding: 0;
+}
+
+/* VIDEO IMAGES */
+
+.thumbnail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+
+.thumbnail figure{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    font-size: 24px;
+}
+
+.thumbnail figure img{
+    display: inline-block;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
