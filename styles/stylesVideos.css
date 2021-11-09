@@ -172,7 +172,6 @@ footer p.copyright{
 .thumbnail{
     width: 100%;
     margin: auto;
-    background-color: green;
 }
 
 .thumbnail figure{
@@ -181,7 +180,6 @@ footer p.copyright{
     width: 40%;
     font-size: 24px;
     margin-bottom: 100px;
-    background-color: blue;
 }
 
 .thumbnail figure img{
