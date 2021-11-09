@@ -170,25 +170,25 @@ footer p.copyright{
 /* VIDEO IMAGES */
 
 .thumbnail{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
     margin: auto;
+    background-color: green;
 }
 
 .thumbnail figure{
     margin: auto;
     text-align: center;
-    width: 50%;
+    width: 40%;
     font-size: 24px;
     margin-bottom: 100px;
+    background-color: blue;
 }
 
 .thumbnail figure img{
-    display: inline-block;
+    display: inline;
     width: 500px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 30px;
+
 }
